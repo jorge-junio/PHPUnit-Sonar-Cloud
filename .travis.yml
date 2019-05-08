@@ -12,7 +12,7 @@ cache:
 
 addons:
     sonarcloud:
-        organization: "jeromegamez-github"
+        organization: "jorge-junio-github"
 
 git:
     depth: false
