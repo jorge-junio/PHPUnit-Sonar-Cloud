@@ -12,7 +12,7 @@ cache:
 
 addons:
     sonarcloud:
-        organization: "jeromegamez-github"
+        organization: "jorge-junio-github"
 
 git:
     depth: false
@@ -20,6 +20,5 @@ git:
 install: composer update --no-interaction --no-suggest --no-progress
 
 script:
-    - vendor/bin/phpstan analyze -c phpstan.neon.dist --no-interaction --no-progress
     - vendor/bin/phpunit -c phpunit.xml.dist --coverage-clover=coverage-report.clover --log-junit=test-report.xml
     - sonar-scanner
