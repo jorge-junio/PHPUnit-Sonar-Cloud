@@ -1,0 +1,26 @@
+
+ emailtest::testcanbeusedasstring
+tests/EmailTest.php ()"1*J
+2
+EmailTest.php"4
+
+tests/EmailTest.php (
+implicit return*ì
+1
+tests/EmailTest.php (
+]
+[
+
+tests/EmailTest.php (1
+%1"email::fromstring*	"
+email*
+'user@example.com'db
+
+tests/EmailTest.php (	
+%2*
+	emailtest*
+'user@example.com'*
+
+%12assertequals*
+2B
+	emailtest
